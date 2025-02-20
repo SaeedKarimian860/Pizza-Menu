@@ -50,24 +50,34 @@ function App() {
   return (
     <div>
       <Header />
-      <Pizza />
-      <Pizza />
-      <Pizza />
+      <Menu />
       <Footer />
     </div>
   );
 }
 
 function Header() {
-  return <h1>Fast React Pizza Co.</h1>
+  return <h1>Fast React Pizza Co.</h1>;
 }
 
-function Menu() {}
+function Menu() {
+  return (
+    <div>
+      <h2>Our Menu</h2>
+      <Pizza />
+      <Pizza />
+      <Pizza />
+      <Pizza />
+    </div>
+  );
+}
 
 function Footer() {
-  return <footer> {new Date().toLocaleTimeString()}. We're currently open!</footer>
+  return (
+    <footer> {new Date().toLocaleTimeString()}. We're currently open!</footer>
+  );
   // return React.createElement('footer', null, "We're currently open!")
-} 
+}
 
 function Pizza() {
   return (
