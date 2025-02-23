@@ -76,13 +76,13 @@ function Menu() {
         name="Pizza Spinaci"
         ingredients="Tomato, mozzarella, spinach, and ricotta cheese"
         photoName="pizzas/spinaci.jpg"
-        price="10"
+        price={10}
       />
 
       <Pizza
         name="Pizza Funghi"
         ingredients="Tomato, mushrooms"
-        price="12"
+        price={12}
         photoName="pizzas/funghi.jpg"
       />
     </main>
@@ -98,7 +98,7 @@ function Pizza(props) {
       <div>
         <h3>{props.name}</h3>
         <p>{props.ingredients}</p>
-        <span>{props.price}</span>
+        <span>{props.price + 3}</span>
       </div>
     </div>
   );
