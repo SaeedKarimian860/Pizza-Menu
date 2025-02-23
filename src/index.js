@@ -72,7 +72,12 @@ function Menu() {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
-      <Pizza />
+      <Pizza
+        name="Pizza Spinaci"
+        ingredient="Tomato, mozzarella, spinach, and ricotta cheese"
+        photoName="pizzas/spinaci.jpg"
+        price="10"
+      />
     </main>
   );
 }
@@ -85,6 +90,7 @@ function Pizza() {
       <p>Tomato, mozarella, spinach, and ricotta cheese</p>
     </div>
   );
+}
 
 function Footer() {
   const hour = new Date().getHours();
@@ -104,7 +110,6 @@ function Footer() {
 
   // return React.createElement('footer', null, "We're currently open!")
 }
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
