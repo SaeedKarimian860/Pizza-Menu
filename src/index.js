@@ -82,7 +82,8 @@ function Menu() {
   );
 }
 
-function Pizza() {
+function Pizza(props) {
+  console.log(props);
   return (
     <div>
       <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
