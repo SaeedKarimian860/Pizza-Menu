@@ -72,19 +72,23 @@ function Menu() {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
-      <Pizza
+
+      <div>
+
+      </div>
+
+      {/* <Pizza
         name="Pizza Spinaci"
         ingredients="Tomato, mozzarella, spinach, and ricotta cheese"
         photoName="pizzas/spinaci.jpg"
         price={10}
       />
-
       <Pizza
         name="Pizza Funghi"
         ingredients="Tomato, mushrooms"
         price={12}
         photoName="pizzas/funghi.jpg"
-      />
+      /> */}
     </main>
   );
 }
