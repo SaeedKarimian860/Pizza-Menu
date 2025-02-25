@@ -47,7 +47,6 @@ const pizzaData = [
   },
 ];
 
-
 function App() {
   return (
     <div className="container">
@@ -57,7 +56,6 @@ function App() {
     </div>
   );
 }
-
 
 function Header() {
   // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
@@ -69,7 +67,6 @@ function Header() {
     </header>
   );
 }
-
 
 function Menu() {
   return (
