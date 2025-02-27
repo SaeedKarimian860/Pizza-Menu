@@ -75,7 +75,7 @@ function Menu() {
 
       <div>
         {pizzaData.map((pizza) => (
-          <Pizza  />
+          <Pizza pizzaObj={pizza} />
         ))}
       </div>
 
