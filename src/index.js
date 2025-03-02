@@ -69,7 +69,9 @@ function Header() {
 }
 
 function Menu() {
-  const pizzas = pizzaData;
+  // const pizzas = pizzaData;
+  const pizzas = [];
+  const numPizzas = pizza.length;
 
   return (
     <main className="menu">
