@@ -77,13 +77,13 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
 
-      {numPizzas > 0 && (
+      {numPizzas > 0 ? ( // conditional rendering with ternaries
         <ul className="pizzas">
           {pizzas.map((pizza) => (
             <Pizza pizzaObj={pizza} key={pizza.name} />
           ))}
         </ul>
-      )}
+      ) : null}
 
       {/* <Pizza
         name="Pizza Spinaci"
