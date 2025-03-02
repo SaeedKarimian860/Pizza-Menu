@@ -83,7 +83,9 @@ function Menu() {
             <Pizza pizzaObj={pizza} key={pizza.name} />
           ))}
         </ul>
-      ) : null}
+      ) : (
+        <p>We're still working on our menu. Please come back later :)</p>
+      )}
 
       {/* <Pizza
         name="Pizza Spinaci"
