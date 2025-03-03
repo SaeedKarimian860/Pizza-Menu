@@ -130,12 +130,12 @@ function Footer() {
   // if (hour >= openHour && hour <= closeHour) alert("We're currently open!"); else alert("Sorry we're closed");
 
   // Outside of JSX but inside of the component, so now we can use any JavaScript
-  if (!isOpen)
-    return (
-      <p>
-        We're happy to welcome you between {openHour}:00 and {closeHour}:00.
-      </p>
-    );
+  // if (!isOpen)
+  //   return (
+  //     <p>
+  //       We're happy to welcome you between {openHour}:00 and {closeHour}:00.
+  //     </p>
+  //   );
 
   return (
     <footer className="footer">
