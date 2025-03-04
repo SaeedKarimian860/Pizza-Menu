@@ -77,7 +77,10 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
 
-      <p>Authentic Italian cuisine. 6 creative dishes to choose from. All from our stone oven, all organic, all delicious.</p>
+      <p>
+        Authentic Italian cuisine. 6 creative dishes to choose from. All from
+        our stone oven, all organic, all delicious.
+      </p>
 
       {numPizzas > 0 ? ( // conditional rendering with ternaries
         <ul className="pizzas">
@@ -157,7 +160,10 @@ function Footer() {
 function Order({ closeHour, openHour }) {
   return (
     <div className="order">
-      <p>We're open from {openHour}:00 to {closeHour}:00. Come visit us or order online.</p>
+      <p>
+        We're open from {openHour}:00 to {closeHour}:00. Come visit us or order
+        online.
+      </p>
       <button className="btn">Order</button>
     </div>
   );
